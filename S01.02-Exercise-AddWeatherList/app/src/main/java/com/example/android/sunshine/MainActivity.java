@@ -34,7 +34,8 @@ public class MainActivity extends AppCompatActivity {
                 "Sun Nov 19 - Broken Clouds, +1",
                 "Mon Nov 20 - Mostly Sun, +3",
                 "Tue Nov 21 - Ice, +2",
-                "Wed Nov 22 - Rain and Snow, +1"};
+                "Wed Nov 22 - Rain and Snow, +1",
+                "Thur Nov 23 - Cloudy, +3"};
 
         for (String weather : weatherData) {
             weatherDisplay.append(weather + "\n\n\n");
